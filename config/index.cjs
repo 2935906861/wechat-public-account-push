@@ -63,9 +63,9 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '老婆',
+      name: '老婆','自己'
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oFX6d6USR2vHqPHdy2Ql_PVo7v6U',
+      id: 'oFX6d6USR2vHqPHdy2Ql_PVo7v6U','oFX6d6RnfkrHRyc2YJpBSIzM8QYg'
       // 你想对他发送的模板消息的模板ID
       useTemplateId: 'IAVRR4NMzyBnQ64QNMX0sEaJPj8BshbJctGzInA0qz8',
       // 所在省份
@@ -171,7 +171,7 @@ const USER_CONFIG = {
       },
     },
     {
-      name: '老婆1',
+      name: '',
       id: '',
       useTemplateId: '',
       province: '',
@@ -184,7 +184,7 @@ const USER_CONFIG = {
       courseSchedule: null
     },
     {
-      name: '老婆2',
+      name: '',
       id: '',
       useTemplateId: '',
       province: '',
@@ -197,7 +197,7 @@ const USER_CONFIG = {
       courseSchedule: null
     },
     {
-      name: '老婆3',
+      name: '',
       id: '',
       useTemplateId: '',
       province: '',
@@ -272,10 +272,10 @@ const USER_CONFIG = {
     },
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
     {
-      type: '生日', name: '李四', year: '1996', date: '09-31', isShowAge: true,
+      type: '生日', name: '', year: '', date: '', isShowAge: true,
     },
     {
-      type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
+      type: '节日', name: '', year: '', date: '',
     }
     // 你可以不断按格式往下增加
     // ...
