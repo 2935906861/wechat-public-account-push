@@ -29,9 +29,9 @@ const USER_CONFIG = {
 
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
-    oneTalk: false,
+    oneTalk: true,
     // 土味情话(彩虹屁)
     earthyLoveWords: true,
     // 朋友圈文案
@@ -42,7 +42,7 @@ const USER_CONFIG = {
     poetry: false,
 
     /** 星座运势 */
-    horoscope: true,
+    horoscope: false,
 
     /** 生日消息和节日消息 */
     birthdayMessage: true,
@@ -89,10 +89,10 @@ const USER_CONFIG = {
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '', year: '1996', date: '09-31',
+          type: '生日', name: '志航', year: '2000', date: '10-08',
         },
         {
-          type: '节日', name: '', year: '2021', date: '09-01',
+          type: '节日', name: '', year: '', date: '',
         }
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
