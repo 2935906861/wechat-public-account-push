@@ -33,7 +33,7 @@ const USER_CONFIG = {
     // 每日一言
     oneTalk: true,
     // 土味情话(彩虹屁)
-    earthyLoveWords: true,
+    earthyLoveWords: false,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
@@ -55,7 +55,7 @@ const USER_CONFIG = {
 
   // 每日一言的内容类型
   // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-  LITERARY_PREFERENCE: '""',
+  LITERARY_PREFERENCE: '网络',
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
@@ -67,7 +67,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oFX6d6RnfkrHRyc2YJpBSIzM8QYg',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: 'IAVRR4NMzyBnQ64QNMX0sEaJPj8BshbJctGzInA0qz8',
+      useTemplateId: 'oFX6d6USR2vHqPHdy2Ql_PVo7v6U',
       // 所在省份
       province: '河南',
       // 所在城市
